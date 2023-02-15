@@ -1,0 +1,55 @@
+.footer .footer-bgclr {
+  background-color: #365c9a;
+}
+
+.footer h2 {
+  color: white;
+  margin-bottom: 25px;
+}
+.footer ::placeholder {
+  color: white;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.footer .col .form-control {
+  background-color: #365c9a;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  margin-bottom: 25px;
+}
+.footer .footerbtn-box {
+  margin-top: 10px;
+}
+.footer .footer-btn {
+  text-decoration: none;
+  color: rgb(20, 11, 11);
+  padding: 10px 23px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 22px;
+}
+
+.footer .footer-socialLinks span {
+  padding: 0 5px;
+}
+.footer .footer-socialLinks span i {
+  color: rgba(255, 255, 255, 0.61);
+  padding: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.61);
+  border-radius: 50%;
+}
+.footer .footer-socialLinks span i:hover {
+  color: white;
+  border: 1px solid white;
+}
+@media (max-width: 767.98px) {
+  .footer h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer .footerbtn-box {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

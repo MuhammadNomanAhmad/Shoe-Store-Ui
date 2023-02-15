@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.collection .heading {
+  font-size: 2rem;
+}
+
+.collection .fig-container {
+  overflow: hidden;
+  position: relative;
+}
+.collection .fig-container:hover .itemImg {
+  opacity: 0.7;
+}
+
+.collection .img-text {
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  margin: 0;
+  padding-left: 25px;
+}
+.collection .fig-container:hover h3 {
+  transform: translateY(-120px);
+  margin: 0;
+}
+
+.collection .fig-container:hover p {
+  opacity: 1;
+  transform: translateY(-120px);
+}
+.collection .fig-container:hover .scBtn {
+  transform: translateY(-120px);
+  opacity: 1;
+}
+
+
+  @media (min-width: 450px) and (max-width: 767.98px) {
+    .collection .img-text {
+      
+      bottom: -80px;
+      
+    }
+  }
+  @media (max-width: 450px)  {
+    .collection .img-text {
+      position: absolute;
+      bottom: -90px;
+      left: 0;
+      margin: 0;
+      padding-left: 25px;
+    }
+    
+
+    .collection .fig-container:hover h3 {
+      transform: translateY(-80px);
+      margin: 0;
+    }
+    
+    .collection .fig-container:hover p {
+      opacity: 1;
+      transform: translateY(-80px);
+    }
+    .collection .fig-container:hover .scBtn {
+      transform: translateY(-90px);
+      opacity: 1;
+    }
+    
+  }
+
+
+/* Offer Section */
+.offer .bg-Color {
+  background-color: #4e84c2;
+}
+
+.offer h4 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.offer p {
+  color: white;
+}
+
+.offer h1 {
+  color: white;
+  font-weight: bolder;
+
+  margin: 0 0.5rem;
+}
+
+.offer hr {
+  width: 100px;
+  margin: auto;
+}
+
+.collection .img-text p {
+  color: white;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.collection .img-text h3 {
+  color: white;
+  font-weight: 400;
+  transition: all 0.4s ease-in-out;
+}
+
+.collection .scBtn {
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  margin-top: 22px;
+}
+.collection .scBtn a {
+  text-decoration: none;
+  background-color: brown;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 20px;
+}

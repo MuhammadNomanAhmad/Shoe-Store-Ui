@@ -1,0 +1,90 @@
+.shoeSize .bgImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.836),
+      rgba(255, 255, 255, 0.836)
+    ),
+    url(../assets/manshoe.jpg);
+}
+.shoeSize .bgImage-womenshow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.836),
+      rgba(255, 255, 255, 0.836)
+    ),
+    url(../assets/womenshoe.jpg);
+}
+.shoeSize p {
+  color: rgb(102, 96, 96);
+  font-weight: 500;
+}
+.shoeSize h2 {
+  font-weight: bold;
+  color: black;
+}
+.shoeSize .bgImage h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: black;
+}
+
+table thead:hover,
+tbody tr:hover {
+  background-color: cornflowerblue;
+}
+
+table tbody tr td,
+th {
+  padding: 15px !important;
+}
+table tbody tr {
+  border-bottom: 1px solid rgba(84, 91, 94, 0.527);
+}
+
+/* faq */
+.faq h2 {
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.faq p {
+  font-size: 1rem;
+  color: rgb(101, 103, 104);
+  font-weight: 500;
+}
+
+.faq .socialLinks-box {
+  top: 50%;
+
+  /* left: 30px; */
+}
+
+.faq .socialLinks-box span {
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+
+.faq .faq-box:hover .socialLinks-box span {
+  opacity: 1;
+}
+.faq .employeName {
+  margin-bottom: 8px;
+}
+.faq .employePost {
+  font-size: 0.9rem;
+}
+
+/* @media (min-width:992px) {
+  .overflow-scroll{
+    overflow-y: auto;
+  } 
+} */

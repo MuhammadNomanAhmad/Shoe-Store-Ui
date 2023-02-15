@@ -1,0 +1,43 @@
+.sellers .bg-clr {
+  background-color: #efefef;
+}
+.seller-fig {
+  margin: 0;
+}
+
+.sellers .heading {
+  font-weight: normal;
+  font-size: 2.2rem !important;
+}
+figure {
+  cursor: pointer;
+}
+.content-box {
+  cursor: pointer;
+}
+.content-box h6 {
+  color: black;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  padding-top: 10px;
+}
+.content-box p {
+  font-size: 1.2rem;
+  padding-bottom: 5px;
+}
+.image-box {
+  position: relative;
+}
+.sale-btn {
+  position: absolute;
+  padding: 3px 20px;
+  background-color: #0657b4;
+  border-radius: 20px;
+  top: 30px;
+  left: 30px;
+}
+.sale-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
